@@ -15,7 +15,7 @@ HTTPS (SSL) implementation
 
 GET	/data/{data_id}	
 --------------------
-Index {data_id}	is the key and the function getPerson to be Used for retrieving requested person data.
+Index {data_id}	is the key and the function getPerson to be Used for retrieving requested person data. <br/>
      200 Ok        --> Person found in the system and response will be sent
      404 Not Found --> Provided Index not found in the system. (Could be such never never exists or could be deleted)
 
