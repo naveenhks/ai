@@ -51,6 +51,7 @@ Locale String  (Auto capture)   --> If the intention is to store the client Loca
 
 Table structure
 ===============
+````
 FIELD       DATATYPE and CCONSTRAINT<br/>
 ==========  =======================<br/>
 ID          STRING  NOT NULL <br/>
@@ -59,6 +60,7 @@ AGE         INTEGER <br/>
 LOCALE      STRING  <br/>
 CREATED_DT  DATE<br/>
 MODIFIED_DT DATE<br/>
+````
 
 URI: PUT/resources/data
 =======================
